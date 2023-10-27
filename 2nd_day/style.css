@@ -1,4 +1,15 @@
-p {
+.fruits {
+    color: orange;
+    font-size: 40px;
+}
+
+.meats {
+    color: brown;
+    font-size: 40px;
+}
+
+#computers {
     color: blue;
     font-size: 30px;
+    text-align: center;
 }
