@@ -1,0 +1,36 @@
+.menu {
+    background-color: white;
+}
+
+.logo {
+    width: 30px;
+    height: 30px;
+}
+
+.left {
+    display: inline-block;
+    width: 40%;
+}
+
+.storeImage {
+    width: 120px;
+    height: 80px;
+}
+
+.right {
+    display: inline-block;
+    width: 40%;
+}
+
+.rightImage {
+    width: 520px;
+    height: 300px;
+}
+
+.container {
+    background-color: white;
+}
+
+.footer {
+    background-color: beige;
+}
