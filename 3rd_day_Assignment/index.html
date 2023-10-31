@@ -5,37 +5,46 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- This div is for menu bar on the top -->
-    <div class="menu">
-        <img src="img/icons8-messenger-240.png" class="logo">
-        <a href="fake_links/Rooms.html">Rooms</a>
-        <a href="fake_links/Features.html">Features</a>
-        <a href="fake_links/PrivacySafety.html">Privacy & safety</a>
-        <a href="fake_links/ForDeveloper.html">For developers</a>
-    </div>
-    <!-- This div is for the main part -->
-    <div class="container">
-        <!-- This div is for left side of the container -->
-        <div class="left">
-            <h1>Be together, whenever.</h1>
-            <div>
-                A simple way to text, video chat and plan things all in one place.
-            </div>
-            <input type="text">
-            <input type="password">
-            <button>Sign In</button>
-            <input type="checkbox">
-            <div>
-                Forgotten your password?
-            </div>
-            <img class="storeImage" src="img/google-play-store-and-app-store.png">
+    <div class="mother">
+        <!-- menu -->
+        <div class="menu">
+            <img src="img/icons8-messenger-240.png" class="logo">
+            <a href="fake_links/Rooms.html" class="menuItem">Rooms</a>
+            <a href="fake_links/Features.html" class="menuItem">Features</a>
+            <a href="fake_links/PrivacySafety.html" class="menuItem">Privacy & safety</a>
+            <a href="fake_links/ForDeveloper.html" class="menuItem">For developers</a>
         </div>
-        <!-- This div is for right side of the container -->
-        <div class="right">
-            <img class="rightImage" src="img/MessengerChat.jpg">
+        <!-- container -->
+        <div class="container">
+            <!-- left -->
+            <div class="left">
+                <div class="leftInner">
+                    <h1 class="header">Be together, whenever.</h1>
+                    <div class="description">
+                        A simple way to text, video chat and plan things all in one place.
+                    </div>
+                    <input type="text" class="blockElement input" placeholder="Email address or phone number">
+                    <input type="password" class="blockElement input" placeholder="Password">
+                    <button class="blockElement signIn">Sign In</button>
+                    <div class="checkbox">
+                        <input type="checkbox">
+                        <span>Keep me signed in</span>
+                    </div>
+                    <div class="forgetPassword">
+                        Forgotten your password?
+                    </div>
+                    <img class="storeImage" src="img/google-play-store-and-app-store.png">
+                </div>
+            </div>
+            <!-- right -->
+            <div class="right">
+                <img class="rightImage" src="img/MessengerChat.png">
+            </div>
+        </div>
+        <!-- footer -->
+        <div class="footer">
+            <h1 class="footerHeader">So many ways to connect with all your friends</h1>
         </div>
     </div>
-    <!-- This div is for button of the website to give some information -->
-    <div class="footer">Button</div>
 </body>
 </html>
