@@ -106,11 +106,18 @@
 @media (max-width: 675px) {
     .Left {
         width: 100%;
+        margin-bottom: 50px;
     }
     .Right {
         width: 100%;
+        overflow: hidden;
+        text-align: center;
+    }
+    .rightImage {
+        margin: 0 -50%;
     }
     .innerLeft {
+        width: 60%;
         margin: 0 auto;
     }
 }
