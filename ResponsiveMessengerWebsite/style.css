@@ -13,10 +13,16 @@ html, body {
 .header {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
+    height: 60px;
     margin-bottom: 30px;
+    position: sticky;
+    top: 0;
+    border-bottom: 1px solid lightgray;
+    background-color: #F6F6F6;
+    opacity: 0.95;
 }
 /* Left */
 .logoContainer {
@@ -34,7 +40,6 @@ html, body {
     font-size: 16px;
     color: rgb(77, 77, 77);
     display: block;
-    margin-right: 60px;
 }
 .menuItem {
     color: inherit;
@@ -57,11 +62,14 @@ html, body {
     .menuItemContainer {
         display: none;
     }
+    .header {
+        justify-content: space-between;
+    }
 }
 
 /* Container */
 .container {
-    width: 95%;
+    width: 70%;
     display: flex;
     flex-wrap: wrap;
     font-size: 12px;
@@ -123,7 +131,7 @@ html, body {
         width: 130%;
     }
     .innerLeft {
-        width: 60%;
+        width: 90%;
         margin: 0 auto;
     }
 }
@@ -131,6 +139,9 @@ html, body {
     .innerLeft {
         width: 100%;
         margin: 0 auto;
+    }
+    .container {
+        width: 90%;
     }
 }
 /* Footer */
