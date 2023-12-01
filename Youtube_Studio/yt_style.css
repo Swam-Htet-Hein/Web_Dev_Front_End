@@ -222,3 +222,14 @@ body {
 .video:hover {
     color: blue;
 }
+.recentSubContainer {
+    display: flex;
+    margin: 16px 0;
+}
+.recentSubIcon {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 10px;
+}
